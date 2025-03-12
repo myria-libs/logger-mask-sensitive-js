@@ -7,6 +7,9 @@
         "**/dist": true,
         "**/coverge": true
     },
+    "eslint.workingDirectories": [
+        "src",
+    ],
     "typescript.referencesCodeLens.enabled": true,
     "appService.zipIgnorePattern": [".vscode{,/**}"],
     "appService.deploySubpath": "",
