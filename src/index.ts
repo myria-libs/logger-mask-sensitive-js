@@ -1,5 +1,7 @@
 import { Rule } from './rules';
 
+export { Rule };
+
 export const maskSensitiveData = (rules: Rule[], info: any): any => {
     if (typeof info === 'object' && info !== null) {
         for (const key in info) {
