@@ -26,13 +26,8 @@ module.exports = {
             {
                 tabWidth: 4,
                 singleQuote: true,
+                endOfLine: 'auto',
             },
         ],
     },
-    "prettier/prettier": [
-        "error",
-        {
-            "endOfLine": "auto"
-        }
-    ]
 };
