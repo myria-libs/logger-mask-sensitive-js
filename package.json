@@ -1,7 +1,7 @@
 {
-    "name": "@myria/logger",
+    "name": "@myria/logger-mask-sensitive-js",
     "version": "0.0.1-alpha",
-    "description": "Custom logger",
+    "description": "Enable mask sensitive data when logging by rules",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "scripts": {
@@ -29,7 +29,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/myria-libs/airdrop-js.git"
+        "url": "git+https://github.com/myria-libs/logger-mask-sensitive-js.git"
     },
     "keywords": [
         "npm",
@@ -39,9 +39,9 @@
     "author": "myria",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/myria-libs/airdrop-js/issues"
+        "url": "https://github.com/myria-libs/logger-mask-sensitive-js/issues"
     },
-    "homepage": "https://github.com/myria-libs/airdrop-js#readme",
+    "homepage": "https://github.com/myria-libs/logger-mask-sensitive-js#readme",
     "devDependencies": {
         "@types/jest": "^29.5.11",
         "@types/node": "^20.14.10",
@@ -50,7 +50,7 @@
         "eslint-config-prettier": "^9.1.0",
         "eslint-plugin-import": "^2.29.1",
         "eslint-plugin-prettier": "^5.2.3",
-        "husky": "^9.0.10",
+        "husky": "^9.1.7",
         "jest": "^29.7.0",
         "jsdoc": "^4.0.3",
         "lint-staged": "^15.2.1",

@@ -11,7 +11,7 @@
     "license": "MIT",
     "dependencies": {
         "winston": "^3.17.0",
-        "@myria/logger": "file:.."
+        "@myria/logger-mask-sensitive-js": "file:.."
     },
     "type": "module"
 }

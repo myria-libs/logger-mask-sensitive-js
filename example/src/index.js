@@ -1,4 +1,4 @@
-import { maskSensitiveData } from '@myria/logger';
+import { maskSensitiveData } from '@myria/logger-mask-sensitive-js';
 import { createLogger, format, transports } from 'winston';
 
 const sensitivityRules = [
